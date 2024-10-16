@@ -250,3 +250,12 @@ Wazuh Docker Copyright (C) 2017, Wazuh Inc. (License GPLv2)
 ## Web references
 
 [Wazuh website](http://wazuh.com)
+
+##Follow the directions from the Wazuh Docker instructions to the letter to ensure deployment:
+*  "Increase max_map_count on HOST
+*  Clone REPO
+*  Generate SSL
+*  Deploy
+*  If port conflict occurs run CMD docker compose down
+*  Adjust the docker-compose.yml file accordingly
+*  ReDeploy
