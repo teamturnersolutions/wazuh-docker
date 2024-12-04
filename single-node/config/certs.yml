@@ -14,3 +14,8 @@ nodes:
   dashboard:
     - name: wazuh.dashboard
       ip: wazuh.dashboard
+
+  # Kibana node for HTTPS
+  kibana:
+    - name: kibana
+      ip: kibana
