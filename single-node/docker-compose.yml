@@ -109,7 +109,7 @@ services:
         soft: 65536
         hard: 65536
     ports:
-      - 445:5601
+      - 443:5601
     environment:
       WAZUH_API_URL: https://wazuh.manager
       DASHBOARD_USERNAME: kibanaserver
